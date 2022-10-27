@@ -22,9 +22,9 @@ services:
     www:
         build:
            #Indicamos la carpeta donde guardamos el Docker File
-          context: ./docker_file
+          #context: ./docker_file
            #Indicamos el archivo dockerfile de este contenedor
-          dockerfile: apache_file
+          dockerfile: dockerfile
         ports: 
             - 9091:80
         volumes:
